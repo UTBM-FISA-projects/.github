@@ -30,4 +30,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
+          plugin_languages_indepth: true
+          plugin_language_indepth_custom: UTBM-FISA-projects/TerraGen-Front@main, UTBM-FISA-projects/TerraGen-Doc@main, UTBM-FISA-projects/FrontYM@master, UTBM-FISA-projects/BackYM@master, UTBM-FISA-projects/FunctionsTracer@master
           plugin_languages_details: bytes-size, percentage
